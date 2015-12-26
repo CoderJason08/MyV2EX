@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ClassifyListViewController.h
 //  MyV2EX
 //
 //  Created by 格式化油条 on 15/12/26.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ClassifyListViewController : UIViewController
 
 @end
-
