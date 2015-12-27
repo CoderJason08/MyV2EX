@@ -1,22 +1,24 @@
 //
-//  NewestViewController.m
+//  EssenrialListViewController.m
 //  MyV2EX
 //
-//  Created by 格式化油条 on 15/12/26.
+//  Created by 格式化油条 on 15/12/27.
 //  Copyright © 2015年 XQBoy. All rights reserved.
 //
 
-#import "NewestViewController.h"
+#import "EssenrialListViewController.h"
 
-@interface NewestViewController ()
+
+@interface EssenrialListViewController ()
 
 @end
 
-@implementation NewestViewController
+@implementation EssenrialListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+
 }
 
 - (void)didReceiveMemoryWarning {

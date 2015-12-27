@@ -7,9 +7,10 @@
 //
 
 #import "BaseTabBarViewController.h"
-#import "NewestViewController.h"
+#import "EssenrialListViewController.h"
 #import "ClassifyListViewController.h"
 #import "MeViewController.h"
+
 @interface BaseTabBarViewController ()
 
 @end
@@ -31,8 +32,8 @@
 
 - (void)initializeSubViewController {
     
-    NewestViewController *newestVC = [[NewestViewController alloc] init];
-    [self setUpTabBarItemWithViewController:newestVC title:@"最新"];
+    EssenrialListViewController *essenrialListVC = [[EssenrialListViewController alloc] init];
+    [self setUpTabBarItemWithViewController:essenrialListVC title:@"最热"];
     
     ClassifyListViewController *classifyListVC = [[ClassifyListViewController alloc] init];
     [self setUpTabBarItemWithViewController:classifyListVC title:@"分类"];

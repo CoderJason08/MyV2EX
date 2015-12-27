@@ -1,0 +1,18 @@
+//
+//  MyV2EX.pch
+//  MyV2EX
+//
+//  Created by 格式化油条 on 15/12/27.
+//  Copyright © 2015年 XQBoy. All rights reserved.
+//
+
+#ifndef MyV2EX_pch
+#define MyV2EX_pch
+
+#import <AFNetworking.h>
+#import <Mantle.h>
+#import <Masonry.h>
+#import "APIConstants.h"
+
+#endif /* MyV2EX_pch */
+

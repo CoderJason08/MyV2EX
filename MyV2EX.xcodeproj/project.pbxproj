@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2801CD031C2FDEA20048E900 /* UIViewController+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801CD021C2FDEA20048E900 /* UIViewController+Custom.m */; };
+		2801CD071C2FE94B0048E900 /* EssenrialListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801CD061C2FE94B0048E900 /* EssenrialListViewController.m */; };
+		2801CD0B1C2FEA140048E900 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801CD0A1C2FEA140048E900 /* BaseView.m */; };
+		2801CD121C2FEDE00048E900 /* TopicEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801CD111C2FEDE00048E900 /* TopicEntity.m */; };
+		2801CD161C2FF1510048E900 /* TopicEntity+request.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801CD151C2FF1510048E900 /* TopicEntity+request.m */; };
+		2801CD1B1C3000600048E900 /* TopicTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801CD1A1C3000600048E900 /* TopicTableView.m */; };
+		2801CD1E1C3000710048E900 /* TopicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801CD1D1C3000710048E900 /* TopicTableViewCell.m */; };
 		28C899AB1C2EDA5B0036381D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899AA1C2EDA5B0036381D /* main.m */; };
 		28C899AE1C2EDA5B0036381D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899AD1C2EDA5B0036381D /* AppDelegate.m */; };
 		28C899B61C2EDA5B0036381D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C899B51C2EDA5B0036381D /* Assets.xcassets */; };
 		28C899B91C2EDA5B0036381D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C899B71C2EDA5B0036381D /* LaunchScreen.storyboard */; };
 		28C899CD1C2EE01B0036381D /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899CC1C2EE01B0036381D /* BaseTabBarViewController.m */; };
-		28C899D01C2EE03B0036381D /* NewestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899CF1C2EE03B0036381D /* NewestViewController.m */; };
 		28C899D31C2EE0490036381D /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899D21C2EE0490036381D /* MeViewController.m */; };
 		28C899D61C2EE0610036381D /* ClassifyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899D51C2EE0610036381D /* ClassifyListViewController.m */; };
 		28C899D91C2EE4630036381D /* JumpToOtherVCHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899D81C2EE4630036381D /* JumpToOtherVCHandler.m */; };
@@ -21,6 +27,24 @@
 
 /* Begin PBXFileReference section */
 		11F6EB3E652D4025DE25CE7C /* libPods-MyV2EX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyV2EX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2801CD011C2FDEA20048E900 /* UIViewController+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Custom.h"; sourceTree = "<group>"; };
+		2801CD021C2FDEA20048E900 /* UIViewController+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Custom.m"; sourceTree = "<group>"; };
+		2801CD051C2FE94B0048E900 /* EssenrialListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenrialListViewController.h; sourceTree = "<group>"; };
+		2801CD061C2FE94B0048E900 /* EssenrialListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenrialListViewController.m; sourceTree = "<group>"; };
+		2801CD091C2FEA140048E900 /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		2801CD0A1C2FEA140048E900 /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		2801CD0C1C2FEBDE0048E900 /* MyV2EX.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyV2EX.pch; sourceTree = "<group>"; };
+		2801CD0D1C2FECBC0048E900 /* APIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIConstants.h; sourceTree = "<group>"; };
+		2801CD0E1C2FED480048E900 /* DebugConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugConstant.h; sourceTree = "<group>"; };
+		2801CD0F1C2FED480048E900 /* UIConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIConstant.h; sourceTree = "<group>"; };
+		2801CD101C2FEDE00048E900 /* TopicEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicEntity.h; sourceTree = "<group>"; };
+		2801CD111C2FEDE00048E900 /* TopicEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicEntity.m; sourceTree = "<group>"; };
+		2801CD141C2FF1510048E900 /* TopicEntity+request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TopicEntity+request.h"; sourceTree = "<group>"; };
+		2801CD151C2FF1510048E900 /* TopicEntity+request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TopicEntity+request.m"; sourceTree = "<group>"; };
+		2801CD191C3000600048E900 /* TopicTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicTableView.h; sourceTree = "<group>"; };
+		2801CD1A1C3000600048E900 /* TopicTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTableView.m; sourceTree = "<group>"; };
+		2801CD1C1C3000710048E900 /* TopicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicTableViewCell.h; sourceTree = "<group>"; };
+		2801CD1D1C3000710048E900 /* TopicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTableViewCell.m; sourceTree = "<group>"; };
 		28C899A61C2EDA5B0036381D /* MyV2EX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyV2EX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C899AA1C2EDA5B0036381D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28C899AC1C2EDA5B0036381D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,8 +54,6 @@
 		28C899BA1C2EDA5B0036381D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28C899CB1C2EE01B0036381D /* BaseTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarViewController.h; sourceTree = "<group>"; };
 		28C899CC1C2EE01B0036381D /* BaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
-		28C899CE1C2EE03B0036381D /* NewestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewestViewController.h; sourceTree = "<group>"; };
-		28C899CF1C2EE03B0036381D /* NewestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewestViewController.m; sourceTree = "<group>"; };
 		28C899D11C2EE0490036381D /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
 		28C899D21C2EE0490036381D /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 		28C899D41C2EE0610036381D /* ClassifyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyListViewController.h; sourceTree = "<group>"; };
@@ -54,6 +76,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2801CD001C2FDE7C0048E900 /* Cagetories */ = {
+			isa = PBXGroup;
+			children = (
+				2801CD011C2FDEA20048E900 /* UIViewController+Custom.h */,
+				2801CD021C2FDEA20048E900 /* UIViewController+Custom.m */,
+			);
+			path = Cagetories;
+			sourceTree = "<group>";
+		};
+		2801CD041C2FE92C0048E900 /* Essenrial */ = {
+			isa = PBXGroup;
+			children = (
+				2801CD051C2FE94B0048E900 /* EssenrialListViewController.h */,
+				2801CD061C2FE94B0048E900 /* EssenrialListViewController.m */,
+			);
+			path = Essenrial;
+			sourceTree = "<group>";
+		};
+		2801CD081C2FEA080048E900 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2801CD091C2FEA140048E900 /* BaseView.h */,
+				2801CD0A1C2FEA140048E900 /* BaseView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2801CD131C2FF1210048E900 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				2801CD141C2FF1510048E900 /* TopicEntity+request.h */,
+				2801CD151C2FF1510048E900 /* TopicEntity+request.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		2801CD171C2FF43A0048E900 /* TopicTableView */ = {
+			isa = PBXGroup;
+			children = (
+				2801CD191C3000600048E900 /* TopicTableView.h */,
+				2801CD1A1C3000600048E900 /* TopicTableView.m */,
+			);
+			path = TopicTableView;
+			sourceTree = "<group>";
+		};
+		2801CD181C2FF43A0048E900 /* TopicTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2801CD1C1C3000710048E900 /* TopicTableViewCell.h */,
+				2801CD1D1C3000710048E900 /* TopicTableViewCell.m */,
+			);
+			path = TopicTableViewCell;
+			sourceTree = "<group>";
+		};
 		28C8999D1C2EDA5B0036381D = {
 			isa = PBXGroup;
 			children = (
@@ -76,11 +152,12 @@
 			isa = PBXGroup;
 			children = (
 				28C899C01C2EDEBA0036381D /* Constants */,
-				28C899C11C2EDEBA0036381D /* Controllers */,
 				28C899C21C2EDEBA0036381D /* Handlers */,
-				28C899C31C2EDEBA0036381D /* Models */,
+				2801CD131C2FF1210048E900 /* Request */,
 				28C899C41C2EDEBA0036381D /* Utils */,
 				28C899C51C2EDEBA0036381D /* Views */,
+				28C899C31C2EDEBA0036381D /* Models */,
+				28C899C11C2EDEBA0036381D /* Controllers */,
 				28C899A91C2EDA5B0036381D /* Supporting Files */,
 			);
 			path = MyV2EX;
@@ -89,6 +166,7 @@
 		28C899A91C2EDA5B0036381D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2801CD0C1C2FEBDE0048E900 /* MyV2EX.pch */,
 				28C899AC1C2EDA5B0036381D /* AppDelegate.h */,
 				28C899AD1C2EDA5B0036381D /* AppDelegate.m */,
 				28C899B51C2EDA5B0036381D /* Assets.xcassets */,
@@ -102,6 +180,9 @@
 		28C899C01C2EDEBA0036381D /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				2801CD0E1C2FED480048E900 /* DebugConstant.h */,
+				2801CD0F1C2FED480048E900 /* UIConstant.h */,
+				2801CD0D1C2FECBC0048E900 /* APIConstants.h */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -109,10 +190,10 @@
 		28C899C11C2EDEBA0036381D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2801CD041C2FE92C0048E900 /* Essenrial */,
 				28C899C61C2EDFF50036381D /* Classify */,
 				28C899C71C2EDFF50036381D /* Login */,
 				28C899C81C2EDFF50036381D /* Me */,
-				28C899C91C2EDFF50036381D /* Newest */,
 				28C899CA1C2EDFF50036381D /* TabBar */,
 			);
 			path = Controllers;
@@ -130,6 +211,8 @@
 		28C899C31C2EDEBA0036381D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2801CD101C2FEDE00048E900 /* TopicEntity.h */,
+				2801CD111C2FEDE00048E900 /* TopicEntity.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -137,6 +220,7 @@
 		28C899C41C2EDEBA0036381D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				2801CD001C2FDE7C0048E900 /* Cagetories */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -144,6 +228,9 @@
 		28C899C51C2EDEBA0036381D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2801CD171C2FF43A0048E900 /* TopicTableView */,
+				2801CD181C2FF43A0048E900 /* TopicTableViewCell */,
+				2801CD081C2FEA080048E900 /* Base */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,15 +258,6 @@
 				28C899D21C2EE0490036381D /* MeViewController.m */,
 			);
 			path = Me;
-			sourceTree = "<group>";
-		};
-		28C899C91C2EDFF50036381D /* Newest */ = {
-			isa = PBXGroup;
-			children = (
-				28C899CE1C2EE03B0036381D /* NewestViewController.h */,
-				28C899CF1C2EE03B0036381D /* NewestViewController.m */,
-			);
-			path = Newest;
 			sourceTree = "<group>";
 		};
 		28C899CA1C2EDFF50036381D /* TabBar */ = {
@@ -330,11 +408,17 @@
 			files = (
 				28C899CD1C2EE01B0036381D /* BaseTabBarViewController.m in Sources */,
 				28C899AE1C2EDA5B0036381D /* AppDelegate.m in Sources */,
-				28C899D01C2EE03B0036381D /* NewestViewController.m in Sources */,
+				2801CD0B1C2FEA140048E900 /* BaseView.m in Sources */,
+				2801CD161C2FF1510048E900 /* TopicEntity+request.m in Sources */,
+				2801CD071C2FE94B0048E900 /* EssenrialListViewController.m in Sources */,
+				2801CD1B1C3000600048E900 /* TopicTableView.m in Sources */,
 				28C899AB1C2EDA5B0036381D /* main.m in Sources */,
 				28C899D91C2EE4630036381D /* JumpToOtherVCHandler.m in Sources */,
 				28C899D61C2EE0610036381D /* ClassifyListViewController.m in Sources */,
+				2801CD1E1C3000710048E900 /* TopicTableViewCell.m in Sources */,
 				28C899D31C2EE0490036381D /* MeViewController.m in Sources */,
+				2801CD121C2FEDE00048E900 /* TopicEntity.m in Sources */,
+				2801CD031C2FDEA20048E900 /* UIViewController+Custom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +521,7 @@
 			baseConfigurationReference = EDF3D9DE844788FF3BD965BE /* Pods-MyV2EX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/MyV2EX/MyV2EX.pch";
 				INFOPLIST_FILE = MyV2EX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.XQBoy.MyV2EX;
@@ -449,6 +534,7 @@
 			baseConfigurationReference = 8842CADB3D0BCBDE5C7F5E11 /* Pods-MyV2EX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/MyV2EX/MyV2EX.pch";
 				INFOPLIST_FILE = MyV2EX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.XQBoy.MyV2EX;
