@@ -11,6 +11,9 @@ pod 'UITableView+FDTemplateLayoutCell', '~> 1.4.beta'
 pod 'MJExtension', '~> 3.0.8'
 pod 'SDWebImage', '~> 3.7.3'
 pod 'CYLTableViewPlaceHolder', '~> 1.0.6'
+pod 'MJRefresh', '~> 3.0.8'
+pod 'SVProgressHUD', '~> 2.0-beta'
+
 
 end
 

@@ -8,8 +8,8 @@
 
 #import "EssenrialListViewController.h"
 #import "TopicTableView.h"
-
-@interface EssenrialListViewController ()
+#import "TopicEntity+request.h"
+@interface EssenrialListViewController () <TopicListTableViewDelegate>
 
 @property (strong, nonatomic) TopicTableView *topicTableView;
 
@@ -23,7 +23,9 @@
     [super viewDidLoad];
     
     self.topicTableView = [[TopicTableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    self.topicTableView.topicListTableViewDelegate = self;
     [self.view addSubview:self.topicTableView];
+    [self.topicTableView.mj_header beginRefreshing];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,11 +33,24 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - TopicListTableViewDelegate
 
-- (void)viewWillLayoutSubviews {
+- (void)headerRefreshing {
     
-    [super viewWillLayoutSubviews];
+    __weak typeof(self) weakself = self;
+    [TopicEntity requestTopicListWithSuccessBlock:^(NSArray *topicArray) {
+        
+        weakself.topicTableView.topicListArray = topicArray;
+        [weakself.topicTableView reloadData];
+        
+    } failureBlock:^(NSError *errorMessage) {
+        
+    }];
     
+    [weakself.topicTableView.mj_header endRefreshing];
 }
 
+- (void)footerRereshing {
+    
+}
 @end

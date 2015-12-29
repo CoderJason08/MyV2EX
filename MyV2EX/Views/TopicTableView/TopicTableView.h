@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TopicTableView : UITableView
+/** 提供给外界刷新数据调用的API */
+@protocol TopicListTableViewDelegate <NSObject>
+- (void)headerRefreshing;
+- (void)footerRereshing;
+@end
 
+@interface TopicTableView : UITableView
+@property (nonatomic, assign) BOOL shouldRemoveHeaderView;
+@property (strong, nonatomic) NSArray *topicListArray;
+@property (nonatomic, weak) id<TopicListTableViewDelegate> topicListTableViewDelegate;
+- (void)setupFooterView;
 @end

@@ -14,11 +14,11 @@
     
     self = [super initWithFrame:frame];
     if (self) {
+        self.layer.cornerRadius = 5;
+        self.layer.borderWidth = 0.5;
         self.backgroundColor = [UIColor clearColor];
         self.layer.backgroundColor = [UIColor whiteColor].CGColor;
-        self.layer.cornerRadius = 2;
-        self.layer.borderColor = [UIColor colorWithRed:0.871 green:0.875 blue:0.878 alpha:1.000].CGColor;
-        self.layer.borderWidth = 0.5;
+        self.layer.borderColor = [UIColor colorWithRed:0.871 green:0.875 blue:0.878 alpha:1.000].CGColor;   
     }
     return self;
 }

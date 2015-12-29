@@ -8,10 +8,10 @@
 
 #import "TopicTableView.h"
 #import "TopicTableViewCell.h"
-#import "TopicEntity+request.h"
+
 @interface TopicTableView () <UITableViewDelegate,UITableViewDataSource>
 
-@property (strong, nonatomic) NSArray *topicListArray;
+
 
 @end
 
@@ -26,24 +26,43 @@
         self.dataSource = self;
         self.backgroundColor = [UIColor colorWithWhite:0.933 alpha:1.000];
         self.topicListArray = [NSArray array];
-        [self loadTopicListData];
         self.separatorStyle = UITableViewCellSeparatorStyleNone;
         [self registerClass:[TopicTableViewCell class] forCellReuseIdentifier:NSStringFromClass([TopicTableViewCell class])];
+        [self setupHeaderView];
+        [self reloadData];
     }
     return self;
 }
 
-- (void)loadTopicListData {
-    
-    [TopicEntity requestTopicListWithSuccessBlock:^(NSArray *topicArray) {
-        
-        self.topicListArray = topicArray;
-        [self reloadData];
-        
-    } failureBlock:^(NSError *errorMessage) {
-        
-        
-    }];
+- (void)setupHeaderView {
+    MJRefreshNormalHeader *header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(refreshData)];
+    header.lastUpdatedTimeLabel.hidden = YES;
+    header.stateLabel.font = [UIFont fontWithName:FontName size:13];
+    self.mj_header = header;
+}
+
+- (void)setupFooterView {
+    MJRefreshAutoNormalFooter *footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData)];
+    footer.stateLabel.font = [UIFont fontWithName:FontName size:13];
+    self.mj_footer = footer;
+}
+
+- (void)refreshData {
+    if (_topicListTableViewDelegate && [_topicListTableViewDelegate respondsToSelector:@selector(headerRefreshing)]) {
+        [_topicListTableViewDelegate headerRefreshing];
+    }
+}
+
+- (void)loadMoreData {
+    if (_topicListTableViewDelegate && [_topicListTableViewDelegate respondsToSelector:@selector(footerRereshing)]) {
+        [_topicListTableViewDelegate footerRereshing];
+    }
+}
+
+#pragma mark - UITableViewDataSource
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -63,6 +82,8 @@
 - (void)setupModelWithCell:(TopicTableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
     cell.topicEntity = self.topicListArray[indexPath.row];
 }
+
+#pragma mark - UITableViewDelegate
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     

@@ -16,13 +16,17 @@
 		2801CD1E1C3000710048E900 /* TopicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801CD1D1C3000710048E900 /* TopicTableViewCell.m */; };
 		28C6CD341C32C509000D8341 /* UserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C6CD331C32C509000D8341 /* UserEntity.m */; };
 		28C6CD371C32D2E9000D8341 /* NSString+timestamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C6CD361C32D2E9000D8341 /* NSString+timestamp.m */; };
+		28C6CD3C1C32DDBF000D8341 /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C6CD3B1C32DDBF000D8341 /* ViewPagerController.m */; };
+		28C6CD3F1C32DF2D000D8341 /* TopicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C6CD3E1C32DF2D000D8341 /* TopicListViewController.m */; };
+		28C6CD421C32DF80000D8341 /* TopicListContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C6CD411C32DF80000D8341 /* TopicListContainerViewController.m */; };
+		28C6CD461C32E527000D8341 /* TitlePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C6CD451C32E527000D8341 /* TitlePagerView.m */; };
+		28C6CD4A1C32E660000D8341 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C6CD491C32E660000D8341 /* UIView+Additions.m */; };
 		28C899AB1C2EDA5B0036381D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899AA1C2EDA5B0036381D /* main.m */; };
 		28C899AE1C2EDA5B0036381D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899AD1C2EDA5B0036381D /* AppDelegate.m */; };
 		28C899B61C2EDA5B0036381D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C899B51C2EDA5B0036381D /* Assets.xcassets */; };
 		28C899B91C2EDA5B0036381D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C899B71C2EDA5B0036381D /* LaunchScreen.storyboard */; };
 		28C899CD1C2EE01B0036381D /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899CC1C2EE01B0036381D /* BaseTabBarViewController.m */; };
 		28C899D31C2EE0490036381D /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899D21C2EE0490036381D /* MeViewController.m */; };
-		28C899D61C2EE0610036381D /* ClassifyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899D51C2EE0610036381D /* ClassifyListViewController.m */; };
 		28C899D91C2EE4630036381D /* JumpToOtherVCHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899D81C2EE4630036381D /* JumpToOtherVCHandler.m */; };
 		B2B533B284B8A7F4631463D0 /* libPods-MyV2EX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F6EB3E652D4025DE25CE7C /* libPods-MyV2EX.a */; };
 /* End PBXBuildFile section */
@@ -51,6 +55,16 @@
 		28C6CD331C32C509000D8341 /* UserEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEntity.m; sourceTree = "<group>"; };
 		28C6CD351C32D2E9000D8341 /* NSString+timestamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+timestamp.h"; sourceTree = "<group>"; };
 		28C6CD361C32D2E9000D8341 /* NSString+timestamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+timestamp.m"; sourceTree = "<group>"; };
+		28C6CD3A1C32DDBF000D8341 /* ViewPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPagerController.h; sourceTree = "<group>"; };
+		28C6CD3B1C32DDBF000D8341 /* ViewPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPagerController.m; sourceTree = "<group>"; };
+		28C6CD3D1C32DF2D000D8341 /* TopicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicListViewController.h; sourceTree = "<group>"; };
+		28C6CD3E1C32DF2D000D8341 /* TopicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicListViewController.m; sourceTree = "<group>"; };
+		28C6CD401C32DF80000D8341 /* TopicListContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicListContainerViewController.h; sourceTree = "<group>"; };
+		28C6CD411C32DF80000D8341 /* TopicListContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicListContainerViewController.m; sourceTree = "<group>"; };
+		28C6CD441C32E527000D8341 /* TitlePagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitlePagerView.h; sourceTree = "<group>"; };
+		28C6CD451C32E527000D8341 /* TitlePagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitlePagerView.m; sourceTree = "<group>"; };
+		28C6CD481C32E660000D8341 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		28C6CD491C32E660000D8341 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
 		28C899A61C2EDA5B0036381D /* MyV2EX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyV2EX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C899AA1C2EDA5B0036381D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28C899AC1C2EDA5B0036381D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,8 +76,6 @@
 		28C899CC1C2EE01B0036381D /* BaseTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarViewController.m; sourceTree = "<group>"; };
 		28C899D11C2EE0490036381D /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
 		28C899D21C2EE0490036381D /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
-		28C899D41C2EE0610036381D /* ClassifyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyListViewController.h; sourceTree = "<group>"; };
-		28C899D51C2EE0610036381D /* ClassifyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyListViewController.m; sourceTree = "<group>"; };
 		28C899D71C2EE4630036381D /* JumpToOtherVCHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpToOtherVCHandler.h; sourceTree = "<group>"; };
 		28C899D81C2EE4630036381D /* JumpToOtherVCHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpToOtherVCHandler.m; sourceTree = "<group>"; };
 		8842CADB3D0BCBDE5C7F5E11 /* Pods-MyV2EX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyV2EX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyV2EX/Pods-MyV2EX.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +97,7 @@
 		2801CD001C2FDE7C0048E900 /* Cagetories */ = {
 			isa = PBXGroup;
 			children = (
+				28C6CD471C32E660000D8341 /* UIView */,
 				2801CD011C2FDEA20048E900 /* UIViewController+Custom.h */,
 				2801CD021C2FDEA20048E900 /* UIViewController+Custom.m */,
 				28C6CD351C32D2E9000D8341 /* NSString+timestamp.h */,
@@ -138,6 +151,42 @@
 			path = TopicTableViewCell;
 			sourceTree = "<group>";
 		};
+		28C6CD381C32DDAD000D8341 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				28C6CD431C32E527000D8341 /* TitlePagerView */,
+				28C6CD391C32DDBF000D8341 /* ViewPagerController */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		28C6CD391C32DDBF000D8341 /* ViewPagerController */ = {
+			isa = PBXGroup;
+			children = (
+				28C6CD3A1C32DDBF000D8341 /* ViewPagerController.h */,
+				28C6CD3B1C32DDBF000D8341 /* ViewPagerController.m */,
+			);
+			path = ViewPagerController;
+			sourceTree = "<group>";
+		};
+		28C6CD431C32E527000D8341 /* TitlePagerView */ = {
+			isa = PBXGroup;
+			children = (
+				28C6CD441C32E527000D8341 /* TitlePagerView.h */,
+				28C6CD451C32E527000D8341 /* TitlePagerView.m */,
+			);
+			path = TitlePagerView;
+			sourceTree = "<group>";
+		};
+		28C6CD471C32E660000D8341 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				28C6CD481C32E660000D8341 /* UIView+Additions.h */,
+				28C6CD491C32E660000D8341 /* UIView+Additions.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 		28C8999D1C2EDA5B0036381D = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +211,7 @@
 				28C899C01C2EDEBA0036381D /* Constants */,
 				28C899C21C2EDEBA0036381D /* Handlers */,
 				2801CD131C2FF1210048E900 /* Request */,
+				28C6CD381C32DDAD000D8341 /* ThirdParty */,
 				28C899C41C2EDEBA0036381D /* Utils */,
 				28C899C51C2EDEBA0036381D /* Views */,
 				28C899C31C2EDEBA0036381D /* Models */,
@@ -248,8 +298,10 @@
 		28C899C61C2EDFF50036381D /* Classify */ = {
 			isa = PBXGroup;
 			children = (
-				28C899D41C2EE0610036381D /* ClassifyListViewController.h */,
-				28C899D51C2EE0610036381D /* ClassifyListViewController.m */,
+				28C6CD3D1C32DF2D000D8341 /* TopicListViewController.h */,
+				28C6CD3E1C32DF2D000D8341 /* TopicListViewController.m */,
+				28C6CD401C32DF80000D8341 /* TopicListContainerViewController.h */,
+				28C6CD411C32DF80000D8341 /* TopicListContainerViewController.m */,
 			);
 			path = Classify;
 			sourceTree = "<group>";
@@ -416,20 +468,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C6CD3F1C32DF2D000D8341 /* TopicListViewController.m in Sources */,
+				28C6CD461C32E527000D8341 /* TitlePagerView.m in Sources */,
 				28C899CD1C2EE01B0036381D /* BaseTabBarViewController.m in Sources */,
 				28C899AE1C2EDA5B0036381D /* AppDelegate.m in Sources */,
 				2801CD0B1C2FEA140048E900 /* BaseView.m in Sources */,
 				2801CD161C2FF1510048E900 /* TopicEntity+request.m in Sources */,
 				2801CD071C2FE94B0048E900 /* EssenrialListViewController.m in Sources */,
 				2801CD1B1C3000600048E900 /* TopicTableView.m in Sources */,
+				28C6CD4A1C32E660000D8341 /* UIView+Additions.m in Sources */,
 				28C899AB1C2EDA5B0036381D /* main.m in Sources */,
 				28C6CD341C32C509000D8341 /* UserEntity.m in Sources */,
 				28C899D91C2EE4630036381D /* JumpToOtherVCHandler.m in Sources */,
-				28C899D61C2EE0610036381D /* ClassifyListViewController.m in Sources */,
 				28C6CD371C32D2E9000D8341 /* NSString+timestamp.m in Sources */,
+				28C6CD421C32DF80000D8341 /* TopicListContainerViewController.m in Sources */,
 				2801CD1E1C3000710048E900 /* TopicTableViewCell.m in Sources */,
 				28C899D31C2EE0490036381D /* MeViewController.m in Sources */,
 				2801CD121C2FEDE00048E900 /* TopicEntity.m in Sources */,
+				28C6CD3C1C32DDBF000D8341 /* ViewPagerController.m in Sources */,
 				2801CD031C2FDEA20048E900 /* UIViewController+Custom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

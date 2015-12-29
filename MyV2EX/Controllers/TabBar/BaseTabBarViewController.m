@@ -8,7 +8,7 @@
 
 #import "BaseTabBarViewController.h"
 #import "EssenrialListViewController.h"
-#import "ClassifyListViewController.h"
+#import "TopicListContainerViewController.h"
 #import "MeViewController.h"
 
 @interface BaseTabBarViewController ()
@@ -35,8 +35,8 @@
     EssenrialListViewController *essenrialListVC = [[EssenrialListViewController alloc] init];
     [self setUpTabBarItemWithViewController:essenrialListVC title:@"最热"];
     
-    ClassifyListViewController *classifyListVC = [[ClassifyListViewController alloc] init];
-    [self setUpTabBarItemWithViewController:classifyListVC title:@"分类"];
+    TopicListContainerViewController *topicListContainerVC = [[TopicListContainerViewController alloc] init];
+    [self setUpTabBarItemWithViewController:topicListContainerVC title:@"分类"];
     
     MeViewController *meVC = [[MeViewController alloc] init];
     [self setUpTabBarItemWithViewController:meVC title:@"我的"];
