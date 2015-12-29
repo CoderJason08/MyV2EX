@@ -7,8 +7,9 @@
 //
 
 #import <Mantle/Mantle.h>
-
-@interface TopicEntity : MTLModel <MTLJSONSerializing>
+@class UserEntity;
+//@interface TopicEntity : MTLModel <MTLJSONSerializing>
+@interface TopicEntity : NSObject
 
 @property (copy, nonatomic) NSString *content;
 @property (copy, nonatomic) NSString *topic_id;
@@ -18,4 +19,7 @@
 @property (copy, nonatomic) NSString *replies;
 @property (copy, nonatomic) NSString *title;
 @property (copy, nonatomic) NSString *url;
+
+@property (strong, nonatomic) UserEntity *member;
+
 @end

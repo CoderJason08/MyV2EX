@@ -20,7 +20,14 @@
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         
         if ([responseObject isKindOfClass:[NSArray class]]) {
-            NSArray *array = [MTLJSONAdapter modelsOfClass:[TopicEntity class] fromJSONArray:responseObject error:nil];
+//            NSArray *array = [MTLJSONAdapter modelsOfClass:[TopicEntity class] fromJSONArray:responseObject error:nil];
+
+            NSMutableArray *array = @[].mutableCopy;
+            for (NSDictionary *dictionary in responseObject) {
+                
+                [array addObject:[TopicEntity mj_objectWithKeyValues:dictionary]];
+            }
+            
             ! success ? : success(array);
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {

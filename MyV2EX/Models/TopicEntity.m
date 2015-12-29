@@ -10,18 +10,18 @@
 
 @implementation TopicEntity
 
-+ (NSDictionary *)JSONKeyPathsByPropertyKey {
-    
-    return @{
-        @"content":@"content",
-        @"created":@"created",
-        @"topic_id":@"id",
-        @"last_modified":@"last_modified",
-        @"last_touched":@"last_touched",
-        @"replies":@"replies",
-        @"title":@"title",
-        @"url":@"url"
-    };
-}
+//+ (NSDictionary *)JSONKeyPathsByPropertyKey {
+//    
+//    return @{
+//        @"content":@"content",
+//        @"created":@"created",
+//        @"topic_id":@"id",
+//        @"last_modified":@"last_modified",
+//        @"last_touched":@"last_touched",
+//        @"replies":@"replies",
+//        @"title":@"title",
+//        @"url":@"url"
+//    };
+//}
 
 @end

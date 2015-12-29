@@ -14,6 +14,8 @@
 		2801CD161C2FF1510048E900 /* TopicEntity+request.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801CD151C2FF1510048E900 /* TopicEntity+request.m */; };
 		2801CD1B1C3000600048E900 /* TopicTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801CD1A1C3000600048E900 /* TopicTableView.m */; };
 		2801CD1E1C3000710048E900 /* TopicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2801CD1D1C3000710048E900 /* TopicTableViewCell.m */; };
+		28C6CD341C32C509000D8341 /* UserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C6CD331C32C509000D8341 /* UserEntity.m */; };
+		28C6CD371C32D2E9000D8341 /* NSString+timestamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C6CD361C32D2E9000D8341 /* NSString+timestamp.m */; };
 		28C899AB1C2EDA5B0036381D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899AA1C2EDA5B0036381D /* main.m */; };
 		28C899AE1C2EDA5B0036381D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C899AD1C2EDA5B0036381D /* AppDelegate.m */; };
 		28C899B61C2EDA5B0036381D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C899B51C2EDA5B0036381D /* Assets.xcassets */; };
@@ -45,6 +47,10 @@
 		2801CD1A1C3000600048E900 /* TopicTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTableView.m; sourceTree = "<group>"; };
 		2801CD1C1C3000710048E900 /* TopicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicTableViewCell.h; sourceTree = "<group>"; };
 		2801CD1D1C3000710048E900 /* TopicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTableViewCell.m; sourceTree = "<group>"; };
+		28C6CD321C32C509000D8341 /* UserEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserEntity.h; sourceTree = "<group>"; };
+		28C6CD331C32C509000D8341 /* UserEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEntity.m; sourceTree = "<group>"; };
+		28C6CD351C32D2E9000D8341 /* NSString+timestamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+timestamp.h"; sourceTree = "<group>"; };
+		28C6CD361C32D2E9000D8341 /* NSString+timestamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+timestamp.m"; sourceTree = "<group>"; };
 		28C899A61C2EDA5B0036381D /* MyV2EX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyV2EX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C899AA1C2EDA5B0036381D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28C899AC1C2EDA5B0036381D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +87,8 @@
 			children = (
 				2801CD011C2FDEA20048E900 /* UIViewController+Custom.h */,
 				2801CD021C2FDEA20048E900 /* UIViewController+Custom.m */,
+				28C6CD351C32D2E9000D8341 /* NSString+timestamp.h */,
+				28C6CD361C32D2E9000D8341 /* NSString+timestamp.m */,
 			);
 			path = Cagetories;
 			sourceTree = "<group>";
@@ -213,6 +221,8 @@
 			children = (
 				2801CD101C2FEDE00048E900 /* TopicEntity.h */,
 				2801CD111C2FEDE00048E900 /* TopicEntity.m */,
+				28C6CD321C32C509000D8341 /* UserEntity.h */,
+				28C6CD331C32C509000D8341 /* UserEntity.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -413,8 +423,10 @@
 				2801CD071C2FE94B0048E900 /* EssenrialListViewController.m in Sources */,
 				2801CD1B1C3000600048E900 /* TopicTableView.m in Sources */,
 				28C899AB1C2EDA5B0036381D /* main.m in Sources */,
+				28C6CD341C32C509000D8341 /* UserEntity.m in Sources */,
 				28C899D91C2EE4630036381D /* JumpToOtherVCHandler.m in Sources */,
 				28C899D61C2EE0610036381D /* ClassifyListViewController.m in Sources */,
+				28C6CD371C32D2E9000D8341 /* NSString+timestamp.m in Sources */,
 				2801CD1E1C3000710048E900 /* TopicTableViewCell.m in Sources */,
 				28C899D31C2EE0490036381D /* MeViewController.m in Sources */,
 				2801CD121C2FEDE00048E900 /* TopicEntity.m in Sources */,
